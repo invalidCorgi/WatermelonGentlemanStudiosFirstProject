@@ -1,15 +1,37 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Enemy.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Can.tscn" type="PackedScene" id=2]
+[ext_resource path="res://woodenStake.png" type="Texture" id=3]
 
 [node name="World" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 84.8528, 263.044 )
+position = Vector2( 35, 163 )
 
-[node name="Enemy" parent="." instance=ExtResource( 2 )]
-position = Vector2( 876.812, 192.333 )
+[node name="Sprite5" type="Sprite" parent="."]
+position = Vector2( 344, 168 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 3 )
+centered = false
 
-[node name="Enemy2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 872.57, 329.512 )
+[node name="Sprite6" type="Sprite" parent="."]
+position = Vector2( 257, 245 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 3 )
+centered = false
+
+[node name="Sprite7" type="Sprite" parent="."]
+position = Vector2( 160, 306 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 3 )
+centered = false
+
+[node name="Can" parent="." instance=ExtResource( 2 )]
+position = Vector2( 192, 286 )
+
+[node name="Can2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 289, 226 )
+
+[node name="Can3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 376, 149 )

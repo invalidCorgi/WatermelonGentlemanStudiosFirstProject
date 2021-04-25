@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/spaceship.png-a8aee2801e3b8c6d30c4bff2d748cbe1.stex"
+path="res://.import/woodenStake.png-bd7e7b6b74fc882ecefce5db90e0765f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spaceship.png"
-dest_files=[ "res://.import/spaceship.png-a8aee2801e3b8c6d30c4bff2d748cbe1.stex" ]
+source_file="res://woodenStake.png"
+dest_files=[ "res://.import/woodenStake.png-bd7e7b6b74fc882ecefce5db90e0765f.stex" ]
 
 [params]
 
